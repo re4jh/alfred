@@ -22,10 +22,10 @@
 #include "list.h"
 #include "packet.h"
 
-#define ALFRED_INTERVAL			10
+#define ALFRED_INTERVAL			60
 #define ALFRED_IF_CHECK_INTERVAL	60
 #define ALFRED_REQUEST_TIMEOUT		10
-#define ALFRED_SERVER_TIMEOUT		60
+#define ALFRED_SERVER_TIMEOUT		180
 #define ALFRED_DATA_TIMEOUT		600
 #define ALFRED_SOCK_PATH_DEFAULT	"/var/run/alfred.sock"
 #define NO_FILTER			-1
